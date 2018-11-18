@@ -1,32 +1,17 @@
-# Jekyll CV Crafter
+# Skinny Bones Jekyll Starter
 
-[![Gem Version](https://badge.fury.io/rb/jekyll-cv-crafter.svg)](https://badge.fury.io/rb/jekyll-cv-crafter)
+Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
 
-Jekyll powered CV generator. 
-Check the [demo](http://pavelmakhov.com/jekyll-cv-crafter/).
+I'm currently using a variation of it on my personal website [Made Mistakes](http://mademistakes.com) with some modifications. To learn more about how to use the theme and install it check out the [Skinny Bones demo](http://mmistakes.github.io/skinny-bones-jekyll/) (*work in progress*).
 
-## Features
+![screenshot of Skinny Bones](http://mmistakes.github.io/skinny-bones-jekyll/images/skinny-bones-theme-feature.jpg)
 
- - Lightweight - just 3 files: yml with information about you, html/liquid template and css.
- - Font Awesome icons + Bootstrap.
- - Could be easily integrated in already existing site/blog hosted on Github using Jekyll [data](http://jekyllrb.com/docs/datafiles/) files.
- - Data is separated from the view - just fill the YAML file to create your CV.
- - You can easily modify the template or create a new theme according to your needs (check out [my CV](http://pavelmakhov.com/cv)).
- 
-## Templates
+---
 
- - [vertical](http://pavelmakhov.com/jekyll-cv-crafter/cv-vertical) template (WIP)
- - feel free to add yours! 
+## Notable Features
 
-## Installation
-
-Clone/download this repo.
-
- - `_data/cv.yml` contains info about you;
- - `index.html` markup of the CV;
- - `css/cv.scss` styles.
-
-So only thing you need to do is to fill the `cv.yml`. 
-As I mentioned above you can easily integrate this CV in your blog (if it's hosted on github pages) by putting `cv.yml` in `_data` folder of your blog, `cv.scss` in `css` folder of your blog and renaming `index.html` to `cv.html`.
- 
-PRs/issues/comments are welcome! Don't hesitate to contact me in case of any questions.
+* Jekyll 3.x and GitHub Pages compatible.
+* Stylesheet built using Sass.
+* Data files for easier customization of the site navigation/footer and for supporting multiple authors.
+* Optional Disqus comments, table of contents, social sharing links, and Google AdSense ads.
+* And more.
