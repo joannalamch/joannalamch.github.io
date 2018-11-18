@@ -1,17 +1,34 @@
-# Skinny Bones Jekyll Starter
+# jekyll-timeline
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
 
-I'm currently using a variation of it on my personal website [Made Mistakes](http://mademistakes.com) with some modifications. To learn more about how to use the theme and install it check out the [Skinny Bones demo](http://mmistakes.github.io/skinny-bones-jekyll/) (*work in progress*).
+Visualize time structured data with this simple jekyll-template.  
+This Jekyll site is perfect for your résumé or other timelines.
+## [HERE](http://himsel.me/jekyll-timeline/) is a demo
+## screenshots
+![SCREENSHOT RÉSUMÉ](screenshot.png)
+![SCREENSHOT COMPOSERS](screenshot2.png)
 
-![screenshot of Skinny Bones](http://mmistakes.github.io/skinny-bones-jekyll/images/skinny-bones-theme-feature.jpg)
+## how to use it?
+1. Fork this repository
+2. Configure Github-Pages in the Repo Settings
+3. Edit the Markdown files in the collection `steps` in the `_steps` folder  
+    
+    Required data fields in the frontmatter:
+    
+    - `title: <TITLE>`
+    - `date: 2016-09-31 00:00:00 -0700` (Only Year and Month are shown)
 
----
+    Optional fields:
 
-## Notable Features
+    - `enddate: 2017-1-1 00:00:00 -0700`
+4. Change site configuration `_config.yml`
 
-* Jekyll 3.x and GitHub Pages compatible.
-* Stylesheet built using Sass.
-* Data files for easier customization of the site navigation/footer and for supporting multiple authors.
-* Optional Disqus comments, table of contents, social sharing links, and Google AdSense ads.
-* And more.
+    - the Site title: `title`
+    - background color `color`
+    - url (***very important***) `url`
+    - baseurl (***important***) `baseurl` (name it after the repo)
+    - site's `description`
+5. You're done! (Look at https://<*USERNAME*>.github.io/<*REPO*>)
+
+Feel free to contribute, give feedback, a star, and share it!
